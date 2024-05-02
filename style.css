@@ -1,0 +1,348 @@
+body{
+    margin:0%;
+    background-image: url('/image/Forest1.jpg') ;
+    background-size: cover;
+    background-position: center center;
+}
+
+.answer1{
+    background-color: rgb(29, 125, 29);
+    box-shadow: 1px 5px 5px white;
+}
+.answer2{
+    background-color: rgb(29, 125, 29);
+    box-shadow: 1px 5px 5px white;
+}
+.answer3{
+    background-color: rgb(29, 125, 29);
+    box-shadow: 1px 5px 5px white;
+}
+.answer4{
+    background-color: rgb(29, 125, 29);
+    box-shadow: 1px 5px 5px white;
+}
+.answer5{
+    background-color: rgb(29, 125, 29);
+    box-shadow: 1px 5px 5px white;
+}
+
+
+
+.card_qw{
+    display: none;
+    justify-content: space-evenly;
+    flex-direction: column;
+    margin-top: 10% ;
+    width: 80%;
+    margin-left: 10%;
+}
+
+.qw{
+    font-size: xx-large;
+    display: flex;
+    justify-content:center;
+    color: rgb(255, 0, 34);
+
+}
+.answers{
+    display: flex;
+    justify-content: space-evenly;
+    margin-right: 15%;
+    
+}
+.answers div{
+    border: black 2px solid;
+    padding: 8%;
+    border-radius: 20px;
+}
+.menu{
+    display: flex;
+    height:10%;
+    padding: 5%px 0px;
+    justify-content: center;
+    align-items: center;
+    gap: 7%;
+    flex-grow: 1;
+}
+.menu_elements{
+    color: #fe0000;
+    font-family: Inter;
+    font-size: 120%;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 8%; /* 120% */
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight:900;
+}
+
+.start{
+    display: flex;
+    width: 50%;
+    margin-top: 10% ;
+    margin-left: 25%;
+}
+
+.finish{
+    display: none;
+    flex-direction: column;
+    width: 50%;
+    margin-left: 25%;
+    
+    font-size: 1em;
+    box-shadow: 1px 5px 8px white;
+
+}
+
+.btn_start{
+    font-size: 3em;
+    width: 50%;
+    margin-left: 25%; 
+    box-shadow: 1px 5px 8px white;
+    box-shadow: inset 0 0 0 3000px rgba(1,1,1,0.3);
+    filter: blur (10px);
+    border-radius: 200px;
+    border: 1px solid #ffffff;
+    color: #000;
+    font-family: Inter;
+    text-transform: capitalize;
+    outline: none;
+    border: 0;
+    background: transparent;
+    color: white ;
+    text-decoration: none;
+    font-size: 170%;
+
+
+}
+
+
+a:hover{
+    font-size: 40px;
+    transition:0.7s;
+    color: #51cb72;
+}
+
+.logo{
+    width: 10%;
+    margin-top: 3%;
+    border-radius: 60%;
+    margin-left: 3%;
+    width: 8%;
+}
+
+.menu_elements{
+    color: #000000;
+    font-family: Inter;
+    font-size: 200%;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 8%; /* 120% */
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight:900;
+    margin-bottom: 15%;
+    font-style: normal;
+}
+
+.menu{
+    display: flex;
+    height:10%;
+    padding: 5%px 0px;
+    justify-content: center;
+    align-items: center;
+    gap: 7%;
+    flex-grow: 1;
+}
+
+header{
+    width: 100%;
+}
+.main_window{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.button{
+    content: "";
+    background: inherit;
+    position: absolute;
+    box-shadow: inset 0 0 0 3000px rgba(1,1,1,0.3);
+    filter: blur (10px);
+    margin-top: 7%;
+    margin-left: 7%;
+    width: 8%;
+    padding: 1% 5%;
+    border-radius: 200px;
+    border: 1px solid #ffffff;
+    color: #000;
+    font-family: Inter;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 21.6px; 
+    text-transform: capitalize;
+    /* background-image: url(/image/Button.jpg) ; */
+    width: 250px;
+}
+
+.btn{
+    outline: none;
+    border: 0;
+    background: transparent;
+    color: white ;
+    text-decoration: none;
+    font-size: 70%;
+
+}
+
+.futer{
+    width: 4%;
+    align-items: center;
+}
+.futer_text{
+    text-align: center;
+
+}
+
+.res{
+    color: #ffffff;
+    box-shadow: inset 0 0 0 3000px rgba(1,1,1,0.3);
+
+}
+.user_name{
+    display: none;
+}
+
+
+
+/* кнопка кнопка кнопка кнопка кнопка кнопка кнопка кнопка кнопка кнопка кнопка кнопка */
+/* *{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: 'Rubik Distressed', cursive;
+}
+section{
+    background: radial-gradient(circle closest-side, #333, #111);
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+}
+
+section a {
+    cursor: pointer;
+    position: relative;
+    width: 500px;
+    height: 140px;
+    margin: 50px;
+    border-radius: 70px;
+    box-shadow: 0 10px 10px rgba(140, 140, 140, 0.3);
+
+}
+
+section a::before ,
+section a::after {
+    content: '';
+    position: absolute;
+    Left: 50%;
+    width: 80px;
+    height: 20px;
+    border-radius: 10px;
+    transform: translatex(-50%);
+    transition: 0.5s;
+}
+
+section a::before{
+    bottom: -10px;
+}
+
+section a::after{
+    top:-10px
+}
+
+section a:hover::before ,
+section a:hover::after{
+    height: 50%;
+    width: 80%;
+    border-radius: 70%;
+}
+
+section a:hover::before{
+    bottom: 0;
+
+}
+
+section a:hover::after{
+    top:0;
+}
+
+section a:nth-child(1)::before ,
+section a:nth-child(1)::after{
+    background: #1ca9fa;
+    box-shadow: 
+    0 0 5px #1ca9fa,
+    0 0 15px #1ca9fa,
+    0 0 30px #1ca9fa,
+    0 0 60px #1ca9fa,
+
+}
+
+section a:nth-child(2)::before ,
+section a:nth-child(2)::after{
+    background: #ffdd1f;
+    box-shadow: 
+    0 0 5px #ffdd1f,
+    0 0 15px #ffdd1f,
+    0 0 30px #ffdd1f,
+    0 0 60px #ffdd1f,
+}
+
+section a span{
+    background: rgba(255, 255, 255, 0.05);
+    width: 100%;
+    height: 100%;
+    color: #fff;
+    font-size: 50px;
+    text-transform: uppercase;
+    Letter-spacing: 10px;
+    padding: 00 0 10px;
+    position: absolute;
+    top: 0;
+    Left: 0;
+    z-index: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-top: 3px solid rgba(255, 255, 255, 0.1);
+    border-bottom: 3px solid rgba(255, 255, 255, 0.1);
+    border-radius: 70px;
+    backdrop-filter: blur(15px);
+    overflow: hidden;
+    transition: 0.55;
+    }
+
+section a:hover span{
+    letter-spacing: 20px;
+    padding: 0 0 0 20px;
+}
+section a span::before{
+    content: '';
+    background: linear-gradient(to left, rgba(255, 255, 255, 0.15), transparent);
+    width: 50%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    Left: 0;
+    transform: skewX(45deg) translate(0);
+    transition: 0.5s;
+}
+
+section a:hover span::before{
+    transform: skewX( 45deg ) translate( 300px );
+} */
+

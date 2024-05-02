@@ -1,0 +1,85 @@
+<html lang='uk'>
+<head>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="styleLogin.css">
+    <!-- <meta charset='UTF-8'>
+    <meta name='viewport' content='width=device-width, initial-scale=1.0'> -->
+    <title></title>
+</head>
+
+<body>
+    <div class="main_window">
+        <header>
+            <img class='logo' src='image/Logo.png'alt='Тут має бути картинка'>
+            
+            <div class='menu'>
+                <a class='menu_elements' href='help.html'>Допомога</a>
+                <a class='menu_elements user_login' id="user_login">Login</a>
+            </div>
+                
+            </header>
+            <main>
+                <div class="button">
+                    <a  class="btn" href='test.html'>Почати грати</a>
+                </div>
+            </main>
+    </div>
+    <div class="login-window">
+    <div class="wrapper">
+        <div class="form-wrapper sign-in">
+            <div>
+                <h2>Login</h2>
+                <div class="input-group">
+                    <input class="name_log" type="text" required>
+                    <label for="">Username</label>
+                </div>
+
+                <div class="input-group">
+                    <input class="pass_log" type="password" required>
+                    <label for="">Password</label>
+                </div>
+                <div class="remember">
+                    <label><input type="checkbox">Remember me</label> 
+                </div>
+                <button class="login" type="submit">Login</button>
+                <div class="signUp-link">
+                    <p>Don't have an account?<a href="#" 
+                    class="signUpBtn-link">Sign Up</a></p>
+                </div>
+            </div>
+        </div>
+
+        <div class="form-wrapper sign-up">
+            <div>
+                <h2>Sign Up</h2>
+                <div class="input-group">
+                    <input type="text" class ="new_name" required>
+                    <label for="">Username</label>
+                </div>
+
+                <div class="input-group">
+                    <input type="email" required>
+                    <label for="">Email</label>
+                </div>
+
+                <div class="input-group">
+                    <input type="password" class ="new_password" required>
+                    <label for="">Password</label>
+                </div>
+                <div class="remember">
+                    <label><input type="checkbox">I agree to the x2 my logiks token</label> 
+                </div>
+                <button type="submit" class="sign_up">Sign Up</button>
+                <div class="signUp-link">
+                    <p>Already have an account?<a href="#" 
+                    class="signInBtn-link">Sign In</a></p>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+<script  src="scriptLogin.js"></script>
+
+</body>
+   
+</html>
