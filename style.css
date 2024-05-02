@@ -1,6 +1,6 @@
 body{
     margin:0%;
-    background-image: url('/image/Forest1.jpg') ;
+    background-image: url('Forest1.jpg') ;
     background-size: cover;
     background-position: center center;
 }
@@ -182,7 +182,7 @@ header{
     font-weight: 400;
     line-height: 21.6px; 
     text-transform: capitalize;
-    /* background-image: url(/image/Button.jpg) ; */
+    /* background-image: url(Button.jpg) ; */
     width: 250px;
 }
 
@@ -216,133 +216,5 @@ header{
 
 
 
-/* кнопка кнопка кнопка кнопка кнопка кнопка кнопка кнопка кнопка кнопка кнопка кнопка */
-/* *{
-    margin:0;
-    padding:0;
-    box-sizing: border-box;
-    font-family: 'Rubik Distressed', cursive;
-}
-section{
-    background: radial-gradient(circle closest-side, #333, #111);
-    width: 100%;
-    height: 100vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
 
-}
-
-section a {
-    cursor: pointer;
-    position: relative;
-    width: 500px;
-    height: 140px;
-    margin: 50px;
-    border-radius: 70px;
-    box-shadow: 0 10px 10px rgba(140, 140, 140, 0.3);
-
-}
-
-section a::before ,
-section a::after {
-    content: '';
-    position: absolute;
-    Left: 50%;
-    width: 80px;
-    height: 20px;
-    border-radius: 10px;
-    transform: translatex(-50%);
-    transition: 0.5s;
-}
-
-section a::before{
-    bottom: -10px;
-}
-
-section a::after{
-    top:-10px
-}
-
-section a:hover::before ,
-section a:hover::after{
-    height: 50%;
-    width: 80%;
-    border-radius: 70%;
-}
-
-section a:hover::before{
-    bottom: 0;
-
-}
-
-section a:hover::after{
-    top:0;
-}
-
-section a:nth-child(1)::before ,
-section a:nth-child(1)::after{
-    background: #1ca9fa;
-    box-shadow: 
-    0 0 5px #1ca9fa,
-    0 0 15px #1ca9fa,
-    0 0 30px #1ca9fa,
-    0 0 60px #1ca9fa,
-
-}
-
-section a:nth-child(2)::before ,
-section a:nth-child(2)::after{
-    background: #ffdd1f;
-    box-shadow: 
-    0 0 5px #ffdd1f,
-    0 0 15px #ffdd1f,
-    0 0 30px #ffdd1f,
-    0 0 60px #ffdd1f,
-}
-
-section a span{
-    background: rgba(255, 255, 255, 0.05);
-    width: 100%;
-    height: 100%;
-    color: #fff;
-    font-size: 50px;
-    text-transform: uppercase;
-    Letter-spacing: 10px;
-    padding: 00 0 10px;
-    position: absolute;
-    top: 0;
-    Left: 0;
-    z-index: 1;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    border-top: 3px solid rgba(255, 255, 255, 0.1);
-    border-bottom: 3px solid rgba(255, 255, 255, 0.1);
-    border-radius: 70px;
-    backdrop-filter: blur(15px);
-    overflow: hidden;
-    transition: 0.55;
-    }
-
-section a:hover span{
-    letter-spacing: 20px;
-    padding: 0 0 0 20px;
-}
-section a span::before{
-    content: '';
-    background: linear-gradient(to left, rgba(255, 255, 255, 0.15), transparent);
-    width: 50%;
-    height: 100%;
-    position: absolute;
-    top: 0;
-    Left: 0;
-    transform: skewX(45deg) translate(0);
-    transition: 0.5s;
-}
-
-section a:hover span::before{
-    transform: skewX( 45deg ) translate( 300px );
-} */
 
